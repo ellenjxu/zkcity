@@ -1,0 +1,11 @@
+[package]
+name = "zkcity"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bellman = "0.14.0"
+curve25519-dalek = { version = "4.1.2", features = ["rand_core"] }
+rand = "0.8.5"
